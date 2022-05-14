@@ -1,0 +1,16 @@
+Restaurant Directory
+
+Fast Food
+1. Chickfila - American
+2. Cookout - American
+3. Gyro Bros - Greek
+4. McDonald's - American
+5. Panda Express - Chinese
+6. Taco Bell - Mexican
+7. Wendy's - American
+
+Sit-down
+1. La Parilla - Mexican
+2. Momonoki - Japanese
+3. Olive Garden - Italian
+4. Twisted Kitchen - Italian

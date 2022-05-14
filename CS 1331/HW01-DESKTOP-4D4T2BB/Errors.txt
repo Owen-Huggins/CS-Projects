@@ -1,0 +1,8 @@
+Bad1: 
+The error was that the class's name was incorrect; it didn't match the name that the file was saved as. This is a complie time error.
+
+Bad2: 
+The error was a divide by zero error, this is a runtime error. 
+
+Bad3: 
+The error was a compile time error. The code was tring to make the value of a char a string. 

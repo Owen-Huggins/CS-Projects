@@ -1,0 +1,119 @@
+body {
+  /* Change the background of the entire site to light blue */
+  /* You can use hex-codes for colors, or basic colors such as red, green, blue */
+  background-image: url("https://cdn.hipwallpaper.com/i/70/49/7EIte2.jpg");
+
+   /* Change the font of the website to Arial */
+
+  font-size: 25px;
+}
+
+p {
+  /* Change the color of all paragraphs to green */
+  color: black;
+  font-style: oblique;
+  font-weight: bold;
+  margin-right: 5%;
+  margin-left: 8%;
+
+
+}
+ul,ol{
+  align-items: center;
+  text-align: center;
+  list-style-position: inside;
+  font-weight: bold;
+  font-style: oblique;
+
+}
+tr{
+  font-size: 30px;
+  font-family: fantasy;
+}
+table{
+  width:77%;
+  margin-left:12%;
+  margin-right: 13%
+}
+img{
+  height: 250px;
+  width: 175px;
+}
+table,td{
+  border-color: black;
+  border-radius: 2pt;
+  border-collapse: collapse;
+  border-style: groove;
+  text-align: center;
+  align-items: center;
+  padding-right:0px;
+
+
+}
+h1,h2{
+  text-align:center;
+  font-family:monospace;
+
+
+
+}
+h2{
+  text-decoration: underline;
+
+}
+#WizardPicture{
+  width:100px;
+}
+#OutlanderPicture{
+  width: 250px;
+}
+#WatchPicture{
+  width: 250px;
+  height: 175px;
+}
+#SagePicture{
+  width: 250px;
+}
+#Roguec{
+  border-radius: 0px;
+}
+#CharacterSheet{
+  margin-left: 16%;
+}
+#RacesPicture{
+  height: 325px;
+  width: 625px;
+  margin-left: 30%;
+}
+#ClassesPicture{
+  height: 750px;
+  width: 675px;
+  margin-left: 32%;
+
+}
+#BackgroundsPicture{
+  height: 750px;
+  width: 675px;
+  margin-left: 30%;
+}
+.Title{
+  font-family:inherit;
+  font-stretch: extra-expanded;
+}
+
+a:active{
+  background-color: yellow;
+
+}
+
+a:visited{
+  color:green;
+}
+a:hover{
+  color:grey;
+}
+/* Styling the paint class */
+.paint {
+  /* Sets a width of 400px to the image in the paint class */
+  width: 400px;
+}
