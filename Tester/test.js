@@ -2,6 +2,9 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const { createReadStream } = require('fs');
 const { createAudioResource, StreamType, joinVoiceChannel, createAudioPlayer, VoiceConnectionStatus } = require('@discordjs/voice');
+
+const KEYS = require('./keys.json');
+
 //const ytdl = require("ytdl-core");
 //const { callSecondClientVoice } = require('./test2.js');
 //import { callSecondClientVoice } from './test2.js';
@@ -73,4 +76,4 @@ cl1.on('messageCreate', async message => { //client 1 is 'master' client
   }
 });
 
-cl1.login('MTA5MjU1ODE4MzA4NTY1NDExMQ.Gz6Qao.dmqZMX3T5-qm4wqDyU_L-zxiBH9PcrFvxie7FY');
+cl1.login(KEYS.key1);

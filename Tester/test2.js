@@ -4,6 +4,7 @@ const { createReadStream } = require('fs');
 const { createAudioResource, StreamType, joinVoiceChannel, createAudioPlayer, VoiceConnectionStatus } = require('@discordjs/voice');
 //const ytdl = require("ytdl-core");
 
+const KEYS = require('./keys.json');
 
 const AUDIO1 = "whomp1.mp4";
 const AUDIO2 = "whomp2.mp4";
@@ -72,6 +73,6 @@ cl2.on('messageCreate', async message => { //client 1 is 'master' client
 
 
 //cl1.login('MTA5MjU1ODE4MzA4NTY1NDExMQ.Gz6Qao.dmqZMX3T5-qm4wqDyU_L-zxiBH9PcrFvxie7FY');
-cl2.login('MTA5MjY0NzMzNDgzNzQ5MzgwMA.G-QyHW.pCqWXRyYDeHk4ggEQOk55DrogqjKWuea-4vS4E');
+cl2.login(KEYS.key2);
 
 //module.exports = { callSecondClientVoice };
